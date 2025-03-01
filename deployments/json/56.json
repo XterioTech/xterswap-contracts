@@ -122,9 +122,33 @@
       "deploymentTxn": "0xe5c716fd7b9122a51a55cdb24b2d0e984a4d51e4a202e1b9bc026a8267737695",
       "timestamp": 1737493275,
       "commitHash": "e6c327f"
+    },
+    "SwapRouter": {
+      "address": "0xbc8bc9ebe4f0381333248f5c4994d17c128ce5e7",
+      "proxy": false,
+      "deploymentTxn": "0x29d2187ff272837b91d131a36073e98b303c5d53e47064e918340477050932a3",
+      "timestamp": 1740650474,
+      "commitHash": "417a7b9"
     }
   },
   "history": [
+    {
+      "contracts": {
+        "SwapRouter": {
+          "address": "0xbc8bc9ebe4f0381333248f5c4994d17c128ce5e7",
+          "proxy": false,
+          "deploymentTxn": "0x29d2187ff272837b91d131a36073e98b303c5d53e47064e918340477050932a3",
+          "input": {
+            "constructor": {
+              "_factory": "0xdB1d10011AD0Ff90774D0C6Bb92e5C5c8b4461F7",
+              "_WETH9": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+            }
+          }
+        }
+      },
+      "timestamp": 1740650474,
+      "commitHash": "417a7b9"
+    },
     {
       "contracts": {
         "PoolManager": {
